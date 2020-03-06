@@ -137,6 +137,10 @@ public class Ejercicios2 {
         return -1;
     }
 
+    private int strStr2 (String str1, String str2){//qwq
+        return str1.indexOf(str2);
+    }
+
     
     /**
      * @param args the command line arguments
@@ -160,6 +164,10 @@ public class Ejercicios2 {
         System.out.println("======strStr=====");
 
         System.out.println(ejercicios.strStr("tawdsdwdwdatadtestawdiaot", "test"));
+
+        System.out.println("======strStr2=====");
+
+        System.out.println(ejercicios.strStr2("tawdsdwdwdatadtestawdiaot", "test"));
     }
     
 }
